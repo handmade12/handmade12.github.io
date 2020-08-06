@@ -1,0 +1,56 @@
+*{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.header{
+	
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height:120px;
+}
+.logo{
+	
+	margin-left: 100px;
+	font-size: 30px;
+	border-radius: 20px;
+	padding: 10px;
+	box-shadow: 16px 8px 7px 4px rgba(0,0,0,0.5);
+}
+.nav{
+	
+	margin-right: 100px;
+	font-size: 22px;
+}
+.nav > a{
+	
+	border-radius: 10px;
+	padding: 5px;
+	margin: 10px;
+	color: black;
+	text-decoration: none;
+
+}
+.nav > a:hover{
+	background-color: black;
+	color: yellow;
+	transition: 1.5s;
+}
+.home{
+	height: 650px;
+	
+	background-image: url(img/background.jpg);
+	background-size: cover;
+}
+.home-blacout{
+	height: 100%;
+	background-color: rgba(0,0,0,0.7);
+	display: flex; 
+	justify-content: center;
+	align-items: center;
+}
+.home-content{
+	color:white;
+	text-align: center;
+
+}
