@@ -1,110 +1,122 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <title>NewSite</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/icon" />
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <title>NewSite</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="main.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,600&display=swap" rel="stylesheet" />
-  <link rel="shortcut icon" href="img/favicon.ico" type="image/icon" />
-</head>
+  <body>
+    <div class="header">
+      <div class="logo"><b>MY LOGO</b></div>
 
-<body style="background-color: hsl(205 300% 80% / 1);">
-  <div class="header">
-    <div class="logo"><b>MY LOGO</b></div>
-    <div class="nav">
-      <a href="">home</a>
-      <a href="">phone</a>
-      <a href="">servicing</a>
-      <a href="">portfolio</a>
-      <a href="">blog</a>
-      <a href="">contact</a>
-      <a href="">about</a>
-    </div>
-  </div>
-  <div class="home">
-    <div class="home-blacout">
-      <div class="home-content">
-        <h1>We will change our life beyond recognition!</h1>
-        <p>Are you ready?</p>
-        <button type="button" class="btn btn-info">I'm ready!</button>
-        <button type="button" class="btn btn-info">Give me some time</button>
-        <button type="button" class="btn btn-info">I'm fine so!</button>
+      <div class="nav">
+        <a href="">home</a>
+        <a href="">phone</a>
+        <a href="">servicing</a>
+        <a href="">portfolio</a>
+        <a href="">blog</a>
+        <a href="">contact</a>
+        <a href="">about</a>
+        <button id="switchThemeButton">🌙</button>
       </div>
     </div>
-  </div>
-
-  <div class="about">
-    <h1>Our kitchens Are the best!</h1>
-    <p>Try it yourself</p>
-    <div class="about-bot">
-      <div class="about-item">
-        <img src="img/111.png" />
-        <h1>Kitchen</h1>
-        <p>For All people</p>
-      </div>
-      <div class="about-item">
-        <img src="img/222.png" />
-        <h1>Kitchen</h1>
-        <p>From anywhere in the world</p>
-      </div>
-      <div class="about-item">
-        <img src="img/333.png" />
-        <h1>Kitchen</h1>
-        <p>For all people on earth</p>
+    <div class="home">
+      <div class="home-blacout">
+        <div class="home-content">
+          <h1>We will change our life beyond recognition!</h1>
+          <p>Are you ready?</p>
+          <button type="button" class="btn btn-info">I'm ready!</button>
+          <button type="button" class="btn btn-info">Give me some time</button>
+          <button type="button" class="btn btn-info">I'm fine so!</button>
+        </div>
       </div>
     </div>
-  </div>
 
-  <div class="our">
-    <div class="our-text">
-      <h1>Our Services</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus
-        possimus laborum amet, accusamus
-      </p>
-    </div>
-    <div class="our-bot">
-      <div class="our-item">
-        <img src="img/research.svg" />
-        <h1>Kitchen</h1>
-        <p>For All people</p>
-      </div>
-
-      <div class="our-item">
-        <img src="img/portfolio.svg" />
-        <h1>Kitchen</h1>
-        <p>From anywhere in the world</p>
-      </div>
-
-      <div class="our-item">
-        <img src="img/support.svg" />
-        <h1>Kitchen</h1>
-        <p>For all people on earth</p>
-      </div>
-
-      <div class="our-item">
-        <img src="img/documentation.svg" />
-        <h1>Kitchen</h1>
-        <p>For all people on earth</p>
-      </div>
-
-      <div class="our-item">
-        <img src="img/development.svg" />
-        <h1>Kitchen</h1>
-        <p>For all people on earth</p>
-      </div>
-
-      <div class="our-item">
-        <img src="img/design.svg" />
-        <h1>Kitchen</h1>
-        <p>For all people on earth</p>
+    <div class="about">
+      <h1>Our kitchens Are the best!</h1>
+      <p>Try it yourself</p>
+      <div class="about-bot">
+        <div class="about-item">
+          <img src="img/help.svg" />
+          <h1>Kitchen</h1>
+          <p>We will help with the choice</p>
+        </div>
+        <div class="about-item">
+          <img src="img/world.svg" />
+          <h1>Kitchen</h1>
+          <p>From anywhere in the world</p>
+        </div>
+        <div class="about-item">
+          <img src="img/forAllPeople.svg" />
+          <h1>Kitchen</h1>
+          <p>For all people</p>
+        </div>
       </div>
     </div>
-  </div>
-</body>
 
+    <div class="our">
+      <div class="our-text">
+        <h1>Our Services</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus
+          possimus laborum amet, accusamus
+        </p>
+      </div>
+      <div class="our-bot">
+        <div class="our-item">
+          <img src="img/research.svg" />
+          <h1>Kitchen</h1>
+          <p>We will help with the choice</p>
+        </div>
+
+        <div class="our-item">
+          <img src="img/portfolio.svg" />
+          <h1>Kitchen</h1>
+          <p>From anywhere in the world</p>
+        </div>
+
+        <div class="our-item">
+          <img src="img/support.svg" />
+          <h1>Kitchen</h1>
+          <p>For all people</p>
+        </div>
+
+        <div class="our-item">
+          <img src="img/documentation.svg" />
+          <h1>Kitchen</h1>
+          <p>For all people</p>
+        </div>
+
+        <div class="our-item">
+          <img src="img/development.svg" />
+          <h1>Kitchen</h1>
+          <p>We will help with the choice</p>
+        </div>
+
+        <div class="our-item">
+          <img src="img/design.svg" />
+          <h1>Kitchen</h1>
+          <p>We will help with the choice</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
 </html>
