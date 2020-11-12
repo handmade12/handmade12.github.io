@@ -1,0 +1,38 @@
+html
+  include ../parts/head.pug
+  body
+    include ../parts/header.pug
+    h1  Our address: Беговая ул., 223/1.
+    .a
+    a(href="https://yandex.ru/maps/org/dzhinn_mebel/16829070479/?ll=39.136992%2C51.695774&z=14")
+    
+    
+    #carouselExampleCaptions.carousel.slide(data-ride='carousel')
+      ol.carousel-indicators
+        li.active(data-target='#carouselExampleCaptions' data-slide-to='0')
+        li(data-target='#carouselExampleCaptions' data-slide-to='1')
+        li(data-target='#carouselExampleCaptions' data-slide-to='2')
+      .carousel-inner
+        .carousel-item.active
+          img.d-block(src='img/panorama.jpg' alt='...')
+          .carousel-caption.d-none.d-md-block
+            h5 First slide label
+            p Nulla vitae elit libero, a pharetra augue mollis interdum.
+        .carousel-item
+          img.d-block(src='img/panorama2.jpg' alt='...')
+          .carousel-caption.d-none.d-md-block
+            h5 Second slide label
+            p Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        .carousel-item
+          img.d-block(src='img/gora3.jpg' alt='...')
+          .carousel-caption.d-none.d-md-block
+            h5 Third slide label
+            p Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+      a.carousel-control-prev(href='#carouselExampleCaptions' role='button' data-slide='prev')
+        span.carousel-control-prev-icon(aria-hidden='true')
+        span.sr-only Previous
+      a.carousel-control-next(href='#carouselExampleCaptions' role='button' data-slide='next')
+        span.carousel-control-next-icon(aria-hidden='true')
+        span.sr-only Next
+
+    include ../parts/footer.pug

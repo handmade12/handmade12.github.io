@@ -1,0 +1,23 @@
+{
+  "name": "newsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "build:templates": "pug src/pages -o dist -P",
+    "build:styles": "cp-cli src/styles dist/",
+    "build:images": "cp-cli src/img dist/img",
+    "build:scripts": "cp-cli src/scripts dist/",
+    "build": "npm run build:templates && npm run build:styles && npm run build:images && npm run build:scripts",
+    "watch": "watch \"npm run build\" src"
+  },
+  "author": "Kirill Sorokin",
+  "license": "ISC",
+  "devDependencies": {
+    "cp-cli": "^2.0.0",
+    "pug": "^3.0.0",
+    "pug-cli": "^1.0.0-alpha6",
+    "tslib": "^2.0.1",
+    "watch": "^1.0.2"
+  }
+}
